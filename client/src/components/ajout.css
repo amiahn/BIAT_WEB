@@ -1,0 +1,182 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins" ,sans-serif;
+}
+
+h3 {
+    margin-left: 70px;
+}
+.materielparBureau{
+    display: flex ;
+    flex-wrap: wrap;
+    
+ 
+}
+.selectionner{
+    
+    width: 700px;
+    height: 40px;
+    margin-left: 300px;
+   
+}
+.body {
+    
+  
+    height: 100vh;
+    position: relative;
+    
+    /*background: linear-gradient(135deg,#71b7e6,#9b59b6) ;*/
+
+}
+
+.containerlocal {
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 1000px;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        padding: 25px 30px;
+        border-radius: 5px;
+    
+    
+}
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 800px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.container form .user-datails {
+  display: flex;
+  flex-wrap: wrap;
+  margin :20px 0 12px 0 ;
+  justify-content: space-between;
+}
+
+form .user-datails .input-box{
+    margin-bottom: 15px;
+   /*width: calc(100% /2 -20px); */
+   width: 48%;
+}
+
+.titredecaracteristiques{
+    width: 80%;
+    margin : 20px 0 12px 0;
+    font-size: 20px;
+}
+form .user-datails .caracteristique{
+    margin-bottom: 15px;
+   /*width: calc(100% /2 -20px); */
+   width: 31%;
+}
+
+.user-datails  .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+.user-datails  input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width : 2px;
+    transition: all 0.3s ease;
+}
+#caracteristiques {
+    margin-top: 50px;
+    
+}
+
+.user-datails .input-box input:focus, 
+.user-datails .input-box input:valid {
+    border-color: #9b59b6;
+
+}
+
+form .gender-details .gender-title {
+    font-size: 20px ;
+    font-weight: 500; 
+
+}
+form .gender-details .category {
+  display: flex;
+    width: 50% ;
+    margin: 14px 0;
+  justify-content: space-between;
+}
+
+form .gender-details .category label {
+    display: flex;
+    align-items: center;
+
+}
+
+form .gender-details .category .dot{
+  height: 18px;
+  width: 18px; 
+  background: #d9d9d9; 
+  border-radius: 50%;
+  margin-right: 10px;
+  border:5px solid transparent ;
+
+}
+
+#dot-1:checked ~.category label .one ,
+#dot-3:checked ~.category label .three ,
+#dot-4:checked ~.category label .four ,
+#dot-2:checked ~.category label .two {
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+
+form input[type="radio"] {
+    
+    display: none;
+}
+
+form .button{
+   height: 45px;
+   margin: 45px 0;
+
+}
+form .button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6)  ;
+}
+form .button input:hover {
+    background: linear-gradient(-135deg,#4a63f1,#eeac1d)  ;
+}

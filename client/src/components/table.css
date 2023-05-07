@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .tableContainer{
+    width : 1800px ; 
+    height: 1000px;
+    margin-left : 20px;
+  }
+  
+  .titretable{
+    font-weight: 800;
+   font-size: 30px;
+   letter-spacing: 1px;
+   color: beige;
+  
+  }
+  .nomtab{
+    text-align: center;
+  }
+  .tit{
+    display: none;
+  }
+ .titretab{
+   font-weight: 800;
+   font-size: 30px;
+   letter-spacing: 1px;
+   
+   /*margin-left: 100px;*/
+   margin-top :60px ;
+ }
+.rechercher1 {
+  
+ 
+  margin-right: 1100px;
+
+}
+.rechercher  {
+  margin: 20px 0 30px 100px;
+}
+.rechercher2{
+  
+  padding-right: 100px;
+
+}
+
+#filled-basic{
+  width: 500px;
+}
+
+.tableocal{
+  position: fixed;
+  top: 550px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 1800px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  padding: 35px 30px;
+  border-radius: 5px;
+
+}
+
+  .container1 {
+    margin: 0 auto;
+  }
+  @media (min-width: 576px) {
+    .container {
+      width: 540px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 720px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1140px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .container {
+      width: 1320px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .container {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .menu{
+    width : 300px ;
+    
+  }
+  
+  .table {
+ 
+    margin-bottom: 15px;
+    margin-top: 25px;
+    width: 1700px;
+    margin-left: 0;
+  }
+  .dessustab{
+    display : flex ;
+    justify-content: flex-end;
+    /*margin-left: 110px;*/
+   
+    margin-top: 25px;
+    
+    width: 1700px;
+  }
+ 
+  .table button {
+    outline: none;
+    padding: 1px 3px;
+    font-size: 14px;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+  }
+  
+  
+  .table th ,.table td {
+    text-align: center;
+    width: 100px;
+  }
+  
+  .allTables{
+    width : 1800px ; 
+    height: 1000px;
+    margin: 100px auto ;
+  }
+  
+button.ajouter { 
+  
+  /*margin-left: 50px;*/
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+
+}
+  
+  .table button.add {
+    background-color: #0077ff;
+  }
+  
+  .table button.del {
+    background-color: red;
+  }
