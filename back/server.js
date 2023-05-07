@@ -26,7 +26,7 @@ process.env.ACCESS_TOKEN_SECRET;
 
 
 
-mongoose.connect("mongodb+srv://admin:admin@cluster0.devri.mongodb.net/BiatUser?retryWrites=true&w=majority",(err) =>{
+mongoose.connect("mongodb+srv://yourDBname:Pass@cluster0.devri.mongodb.net/BiatUser?retryWrites=true&w=majority",(err) =>{
     if(!err) console.log('db connected')
     else console.log('db error')
 })
