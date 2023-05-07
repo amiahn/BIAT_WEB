@@ -10,7 +10,7 @@ function checkRole(permissions) {
         
             return res.sendStatus(401);
         }
-    //bech na9ra les données a partir mel token 
+    
     
 
             await jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, user) => {
